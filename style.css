@@ -17,7 +17,7 @@ header {
 }
 
 header .logo img {
-    width: 100px;
+    width: 60px; /* Smaller logo size */
     height: auto;
 }
 
