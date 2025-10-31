@@ -7,24 +7,35 @@ body {
 }
 
 .container {
-  padding: 80px 20px;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 26px;
   color: black;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
-/* Button Styles */
+/* Vertical Buttons */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
 .btn {
-  display: inline-block;
+  display: block;
+  width: 220px;
   text-decoration: none;
   color: white;
-  padding: 12px 30px;
+  padding: 12px 20px;
   border-radius: 6px;
-  margin: 10px;
   font-size: 16px;
   font-weight: bold;
   transition: 0.3s ease;
