@@ -17,16 +17,26 @@ h1 {
   margin-bottom: 60px;
 }
 
-.links p {
-  margin: 15px 0;
-  font-size: 18px;
-}
-
-.links a {
-  color: black;
+/* Button Styles */
+.btn {
+  display: inline-block;
   text-decoration: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 6px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
 }
 
-.links a:hover {
-  text-decoration: underline;
+/* Button Colors */
+.enquiry { background-color: #0078d7; }
+.facebook { background-color: #1877f2; }
+.instagram { background-color: #e1306c; }
+.twitter { background-color: #1da1f2; }
+.linkedin { background-color: #0077b5; }
+
+.btn:hover {
+  opacity: 0.85;
 }
